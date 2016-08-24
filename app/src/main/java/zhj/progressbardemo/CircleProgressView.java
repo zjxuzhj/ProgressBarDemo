@@ -82,6 +82,7 @@ public class CircleProgressView extends View {
             mPaint.setColor(mFirstColor);
             canvas.drawArc(mRectF, -90, mProgress, false, mPaint);
         }
+
         //进度更新方法
         startProgress();
     }
